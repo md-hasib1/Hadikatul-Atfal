@@ -1274,6 +1274,8 @@ width: 250px;
 @media (max-width:475px) {
     #ragistartion  {
         display: flex;
+        /* width: 100%;
+        height: 100%; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -1287,6 +1289,11 @@ width: 250px;
         align-items: center;
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .form input {
+        width: 100%;
+        height: 100%;
     }
 
     .subscribe a{
